@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.on('ready', () => {client.user.setGame('!guin | Pokémon Go') })
+client.on('ready', () => {
+	client.user.setGame('!guin | Pokémon Go')
     console.log('Hello there.');
 });
 
@@ -36,6 +37,6 @@ client.on('message', message => {
     if (message.content === '!guin give Guinoala some discoins') {
         message.reply('$$ transfer discord:371054784398229516 1')
     }
-  });
+});
 
 client.login(process.argv[2])
