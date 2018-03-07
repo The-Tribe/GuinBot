@@ -7,12 +7,26 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!guin hi') {
-        message.reply('Hi!')
+        message.reply('Well, hello there!')
+    }
     if (message.content === '!guin hello') {
         message.reply('Hello!')
+    }
     if (message.content === '!guin hey') {
-        message.reply('Hey!')
-      }
+        message.reply('Hi!')
+    }
+    if (message.content === '!guin bye') {
+        message.reply('Farewell.')
+    }
+    if (message.content === '!guin where do you live') {
+        message.reply('I live in an abandoned Burger King. :house_abandoned: :hamburger:')
+    }
+    if (message.content === '!guin goodbye') {
+        message.reply('See you later alligator. :crocodile:')
+    }
+    if (message.content === '!guin who are you') {
+        message.reply('I am the bot of @Guinoala#6660')
+    }
 });
 
-client.login()
+client.login(process.argv[2])
