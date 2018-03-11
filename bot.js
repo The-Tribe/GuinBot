@@ -2,7 +2,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-	client.user.setGame('!guin | Pokémon Go')
+	client.user.setUsername('GuinBot');
+	client.user.setActivity('Club Penguin Island');
     console.log('Hello there.');
 });
 
