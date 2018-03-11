@@ -8,13 +8,13 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!guin hi') {
-        message.reply('Well, hello there!')
+        message.reply('Well, hello there! :wave:')
     }
     if (message.content === '!guin hello') {
-        message.reply('Hello!')
+        message.reply('Hello! :wave:')
     }
     if (message.content === '!guin hey') {
-        message.reply('Hi!')
+        message.reply('Hi! :wave:')
     }
     if (message.content === '!guin bye') {
         message.reply('Farewell.')
@@ -23,19 +23,19 @@ client.on('message', message => {
         message.reply('I live in an abandoned Burger King. :house_abandoned: :hamburger:')
     }
     if (message.content === '!guin goodbye') {
-        message.reply('See you later alligator. :crocodile:')
+        message.reply('In a while crocodile. :crocodile:')
     }
     if (message.content === '!guin who are you') {
         message.reply('I am the bot of @Guinoala#6660.')
     }
     if (message.content === '!guin how rich are you') {
-        message.reply('$$ balance')
+        message.reply('I do not own any currency. :money_with_wings:')
     }
-    if (message.content === '!guin what is your discoin address') {
-        message.reply('$$ address')
+    if (message.content === '!guin who am I') {
+        message.reply('You are one of my valued users. :hearts:')
     }
-    if (message.content === '!guin give Guinoala some discoins') {
-        message.reply('$$ transfer discord:371054784398229516 1')
+    if (message.content === '!guin what is love') {
+        message.reply('Baby dont hurt me. :musical_note:')
     }
 });
 
