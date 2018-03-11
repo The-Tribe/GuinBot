@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 	client.user.setUsername('GuinBot');
-	client.user.setActivity('Club Penguin Island');
+	client.user.setGame('Club Penguin Island');
     console.log('Hello there.');
 });
 
