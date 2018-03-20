@@ -38,10 +38,10 @@ client.on('message', message => {
         message.reply('Back to life! Back to reality! :musical_note:')
     }
     if (message.content === '!guin die') {
-	message.reply('I am physically incapable of death. I am a celestial, meaning that the power cosmic keeps me alive for all of eternity.')
+	message.reply('I am physically incapable of death :skull:. I am a celestial, meaning that the power cosmic :rocket: keeps me alive for an infinite amount of time. :alarm_clock:')
     }
     if (message.content === '!guin how old are you') {
-	message.reply('I am fairly young, but cool young :sunglasses:, not baby young. :baby:')
+	message.reply('I am fairly young, but cool young :cool:, not baby young. :baby:')
     }
 });
 
