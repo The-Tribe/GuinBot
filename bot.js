@@ -27,7 +27,7 @@ client.on('message', message => {
         message.reply('In a while crocodile. :crocodile:')
     }
     if (message.content === '!guin who are you') {
-        message.reply('I am the bot of @Guinoala#6660.')
+        message.reply('I am GuinBot.')
     }
     if (message.content === '!guin how rich are you') {
         message.reply('I do not own any currency. :money_with_wings:')
@@ -35,9 +35,14 @@ client.on('message', message => {
     if (message.content === '!guin who am I') {
         message.reply('You are one of my valued users. :hearts:')
     }
-    if (message.content === '!guin what is love') {
-        message.reply('Baby dont hurt me. :musical_note:')
+    if (message.content === '!guin live') {
+        message.reply('Back to life! Back to reality! :musical_note:')
     }
+    if (message.content === '!guin die') {
+	message.reply('I am physically incapable of death. I am a celestial, meaning that the power cosmic keeps me alive for all of eternity.')
+    }
+    if (message.content === '!guin how old are you') {
+	message.reply('I am fairly young, but cool young :sunglasses:, not baby young. :baby:'
 });
 
 client.login(process.argv[2])
