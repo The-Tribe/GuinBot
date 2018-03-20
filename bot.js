@@ -3,7 +3,6 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 	client.user.setUsername('GuinBot');
-	client.user.setGame('Club Penguin Island');
     console.log('Hello there.');
 });
 
@@ -42,7 +41,8 @@ client.on('message', message => {
 	message.reply('I am physically incapable of death. I am a celestial, meaning that the power cosmic keeps me alive for all of eternity.')
     }
     if (message.content === '!guin how old are you') {
-	message.reply('I am fairly young, but cool young :sunglasses:, not baby young. :baby:'
+	message.reply('I am fairly young, but cool young :sunglasses:, not baby young. :baby:') {
+    }
 });
 
 client.login(process.argv[2])
