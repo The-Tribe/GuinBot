@@ -1,6 +1,6 @@
 {
-  "name": "Test",
-  "description": "Test",
+  "name": "egg",
+  "description": "eggs with more eggs",
   "version": "0.0.0",
   "main": "bot.js",
   "scripts": {
