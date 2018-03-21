@@ -39,28 +39,28 @@ client.on('message', async message => {
     if (command === 'bye') {
         message.reply('Farewell.')
     }
-    if (command === 'where do you live') {
+    if (message.content === '!guin where do you live') {
         message.reply('I live in an abandoned Burger King. :house_abandoned: :hamburger:')
     }
     if (command === 'goodbye') {
         message.reply('In a while crocodile. :crocodile:')
     }
-    if (command === 'who are you') {
+    if (message.content === '!guin who are you') {
         message.reply('I am GuinBot.')
     }
-    if (command === 'how rich are you') {
+    if (message.content === '!guin how rich are you') {
         message.reply('I do not own any currency. :money_with_wings:')
     }
-    if (command === 'who am I') {
+    if (message.content === '!guin who am I') {
         message.reply('You are one of my valued users. :hearts:')
     }
     if (command === 'live') {
         message.reply('Back to life! Back to reality! :musical_note:')
     }
     if (command === 'die') {
-	message.reply('I am physically incapable of death :skull:. I am a celestial, meaning that the power cosmic :rocket: keeps me alive for an infinite amount of time. :alarm_clock:')
+	message.reply('I am physically incapable of death. :skull: I am a celestial, meaning that the power cosmic :rocket: keeps me alive for an infinite amount of time. :alarm_clock:')
     }
-    if (command === 'how old are you') {
+    if (message.content === '!guin how old are you') {
 	message.reply('I am fairly young, but cool young :cool:, not baby young. :baby:')
     }
 });
