@@ -1,5 +1,2 @@
 # Botden-Jam
-My Discord Bot.
-
-test
-test
+Hi! This is Guinoala's Disciord bot. GuinBot.
