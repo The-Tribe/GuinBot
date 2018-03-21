@@ -5,6 +5,7 @@ const config = require("./config.json");
 client.on('ready', () => {
     client.user.setUsername('GuinBot');
     console.log('Hi! I baked you some fresh cupcakes.');
+    client.user.setGame(`!guin | ${client.guilds.size} servers`)
 });
 
 client.on("guildCreate", guild => {
