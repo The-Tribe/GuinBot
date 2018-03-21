@@ -5,6 +5,7 @@ const config = require("./config.json");
 client.on('ready', () => {
     client.user.setUsername('GuinBot');
     console.log('Hi! I baked you some fresh cupcakes.');
+});
 
 client.on("guildCreate", guild => {
     console.log(`I joined a new server: ${guild.name} (id: ${guild.id}). This server has ${guild.memberCount} members!`);
