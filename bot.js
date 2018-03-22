@@ -23,7 +23,11 @@ client.on("guildDelete", guild => {
 client.on('message', async message => {
     const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
     const command = args.shift().toLowerCase();
-
+	
+	 if(command === "ping") {
+    const m = await message.channel.send("Eating eggs... :egg:");
+    m.edit(`Pong! :ping_pong: :pi Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
+    }
     if(command === "say") {
         const sayMessage = args.join(" ");
         message.delete().catch(O_o=>{}); 
