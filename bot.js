@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require("./config.json");
 
+// Eggs are good.
 client.on('ready', () => {
     client.user.setUsername('GuinBot');
     console.log('Hi! I baked you some fresh cupcakes.');
