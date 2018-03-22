@@ -4,7 +4,6 @@ const config = require("./config.json");
 
 // Eggs are good.
 // Banana bread is great.
-// Excuse me for my plastic taste.
 client.on('ready', () => {
     client.user.setUsername('GuinBot');
     console.log('Hi! I baked you some fresh cupcakes.');
