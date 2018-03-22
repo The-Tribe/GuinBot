@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const config = require("./config.json");
 
 // Eggs are good.
+// Banana bread is great.
 client.on('ready', () => {
     client.user.setUsername('GuinBot');
     console.log('Hi! I baked you some fresh cupcakes.');
