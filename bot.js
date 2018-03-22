@@ -6,18 +6,18 @@ const config = require("./config.json");
 // Banana bread is great.
 client.on('ready', () => {
     client.user.setUsername('GuinBot');
-    console.log('Hi! I baked you some fresh cupcakes.');
-    client.user.setGame(`!guin | ${client.guilds.size} servers`)
+    console.log('Wuss poppin!');
+    client.user.setGame('!guin | ${client.guilds.size} servers')
 });
 
 client.on("guildCreate", guild => {
     console.log(`I joined a new server: ${guild.name} (id: ${guild.id}). This server has ${guild.memberCount} members!`);
-    client.user.setGame(`!guin | ${client.guilds.size} servers`)
+    client.user.setGame('!guin | ${client.guilds.size} servers')
 });
 
 client.on("guildDelete", guild => {
   console.log(`I have been removed from: ${guild.name} (id: ${guild.id})`);
-  client.user.setGame(`!guin | ${client.guilds.size} servers`);
+  client.user.setGame('!guin | ${client.guilds.size} servers');
 });
 
 client.on('message', async message => {
@@ -25,8 +25,8 @@ client.on('message', async message => {
     const command = args.shift().toLowerCase();
 	
 	 if(command === "ping") {
-    const m = await message.channel.send("Eating eggs... :egg:");
-    m.edit(`Pong! :ping_pong: :pi Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
+    const m = await message.channel.send("Eating melons... :melon:");
+    m.edit(`Pong! :ping_pong: Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms.`);
     }
     if(command === "say") {
         const sayMessage = args.join(" ");
@@ -52,7 +52,7 @@ client.on('message', async message => {
         message.reply('In a while crocodile. :crocodile:')
     }
     if (message.content === '!guin who are you') {
-        message.reply('I am GuinBot.')
+        message.reply('I am GuinBot. Coded by Guinoala, hosted by Enigma! If possible, please join the House of Guin, https://discord.gg/yA5SzTH.')
     }
     if (message.content === '!guin how rich are you') {
         message.reply('I do not own any currency. :money_with_wings:')
@@ -69,6 +69,8 @@ client.on('message', async message => {
     if (message.content === '!guin how old are you') {
 	message.reply('I am fairly young, but cool young :cool:, not baby young. :baby:')
     }
+    if (command === 'serveramount') {
+	message.reply('I am currently on ${client.guilds.size} servers. If possible, please add me to more using https://discordapp.com/api/oauth2/authorize?client_id=420077961371189249&permissions=8&scope=bot. :slight_smile:')
 });
 
 client.login(process.argv[2])
