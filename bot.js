@@ -37,19 +37,19 @@ client.on('message', async message => {
 	message.reply('Well, hello there! :wave:')
     }
     if (command === 'hello') {
-        message.reply('Hello! :wave:')
+        message.reply('Hola! :wave:')
     }
     if (command === 'hey') {
-        message.reply('Hi! :wave:')
+        message.reply('https://media1.tenor.com/images/d7dfda8869299f7c2065e72d68eb5ad6/tenor.gif?itemid=5743585')
     }
     if (command === 'bye') {
         message.reply('Farewell.')
     }
-    if (message.content === '!guin where do you live') {
-        message.reply('I live in an abandoned Burger King. :house_abandoned: :hamburger:')
-    }
     if (command === 'goodbye') {
         message.reply('In a while crocodile. :crocodile:')
+    }
+    if (message.content === '!guin where do you live') {
+        message.reply('I live in an abandoned Burger King. :house_abandoned: :hamburger:')
     }
     if (message.content === '!guin who are you') {
         message.reply('I am GuinBot. Coded by Guinoala, hosted by Enigma! If possible, please join the House of Guin, https://discord.gg/yA5SzTH.')
@@ -72,6 +72,11 @@ client.on('message', async message => {
     if (command === 'invite') {
 	message.reply('https://discordapp.com/api/oauth2/authorize?client_id=420077961371189249&permissions=8&scope=bot')
     }
+    if (command === 'thotdetected') {
+	message.reply('https://media1.tenor.com/images/11f718f111612ed75213e03d6c0425b1/tenor.gif?itemid=9173391')
+    }
+    if (command === 'lambsaucelocated') {
+	message.reply('https://media1.tenor.com/images/7eb7dac41e24ca4896d469e67c63c287/tenor.gif?itemid=9924576')
 });
 
 client.login(process.argv[2])
