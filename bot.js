@@ -69,8 +69,8 @@ client.on('message', async message => {
     if (message.content === '!guin how old are you') {
 	message.reply('I am fairly young, but cool young :cool:, not baby young. :baby:')
     }
-    if (command === 'serveramount') {
-	message.reply('I am currently on ${client.guilds.size} servers. If possible, please add me to more using https://discordapp.com/api/oauth2/authorize?client_id=420077961371189249&permissions=8&scope=bot. :slight_smile:')
+    if (command === 'invite') {
+	message.reply('https://discordapp.com/api/oauth2/authorize?client_id=420077961371189249&permissions=8&scope=bot')
     }
 });
 
