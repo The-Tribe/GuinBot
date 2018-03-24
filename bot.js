@@ -641,6 +641,166 @@ client.on('message', async message => {
 	}
 	if (command === 'dwebble') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Dwebble_(Pok%C3%A9mon)')
+	}
+	if (command === 'eelektrik') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Eelektrik_(Pok%C3%A9mon)')
+	}
+	if (command === 'eelektross') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Eelektross_(Pok%C3%A9mon)')
+	}
+	if (command === 'eevee') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pok%C3%A9mon)')
+	}
+	if (command === 'ekans') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Ekans_(Pok%C3%A9mon)')
+	}
+	if (command === 'electabuzz') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Electabuzz_(Pok%C3%A9mon)')
+	}
+	if (command === 'electivire') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Electivire_(Pok%C3%A9mon)')
+	}
+	if (command === 'electrike') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Electrike_(Pok%C3%A9mon)')
+	}
+	if (command === 'electrode') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Electrode_(Pok%C3%A9mon)')
+	}
+	if (command === 'elekid') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Elekid_(Pok%C3%A9mon)')
+	}
+	if (command === 'elgyem') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Elgyem_(Pok%C3%A9mon)')
+	}
+	if (command === 'emboar') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Emboar_(Pok%C3%A9mon)')
+	}
+	if (command === 'emolga') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Emolga_(Pok%C3%A9mon)')
+	}
+	if (command === 'empoleon') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Empoleon_(Pok%C3%A9mon)')
+	}
+	if (command === 'entei') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Entei_(Pok%C3%A9mon)')
+	}
+	if (command === 'escavalier') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Escavalier_(Pok%C3%A9mon)')
+	}
+	if (command === 'espeon') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Espeon_(Pok%C3%A9mon)')
+	}
+	if (command === 'espurr') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Espurr_(Pok%C3%A9mon)')
+	}
+	if (command === 'excadrill') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Excadrill_(Pok%C3%A9mon)')
+	}
+	if (command === 'exeggcute') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Exeggcute_(Pok%C3%A9mon)')
+	}
+	if (command === 'exeggutor') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Exeggutor_(Pok%C3%A9mon)')
+	}
+	if (command === 'exploud') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Exploud_(Pok%C3%A9mon)')
+	}
+	if (command === 'farfetchd') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Farfetch%27d_(Pok%C3%A9mon)')
+	}
+	if (command === 'fearow') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Fearow_(Pok%C3%A9mon)')
+	}
+	if (command === 'feebas') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Feebas_(Pok%C3%A9mon)')
+	}
+	if (command === 'fennekin') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Fennekin_(Pok%C3%A9mon)')
+	}
+	if (command === 'feraligatr') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Feraligatr_(Pok%C3%A9mon)')
+	}
+	if (command === 'ferroseed') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Ferroseed_(Pok%C3%A9mon)')
+	}
+	if (command === 'ferrothorn') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Ferrothorn_(Pok%C3%A9mon)')
+	}
+	if (command === 'finneon') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Finneon_(Pok%C3%A9mon)')
+	}
+	if (command === 'flaaffy') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Flaaffy_(Pok%C3%A9mon)')
+	}
+	if (command === 'flabebe') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Flabébé_(Pok%C3%A9mon)')
+	}
+	if (command === 'flareon') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Flareon_(Pok%C3%A9mon)')
+	}
+	if (command === 'fletchinder') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Fletchinder_(Pok%C3%A9mon)')
+	}
+	if (command === 'fletchling') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Fletchling_(Pok%C3%A9mon)')
+	}
+	if (command === 'floatzel') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Floatzel_(Pok%C3%A9mon)')
+	}
+	if (command === 'floette') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Floette_(Pok%C3%A9mon)')
+	}
+	if (command === 'florges') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Florges_(Pok%C3%A9mon)')
+	}
+	if (command === 'flygon') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Flygon_(Pok%C3%A9mon)')
+	}
+	if (command === 'fomantis') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Fomantis_(Pok%C3%A9mon)')
+	}
+	if (command === 'foongus') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Foongus_(Pok%C3%A9mon)')
+	}
+	if (command === 'forretress') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Forretress_(Pok%C3%A9mon)')
+	}
+	if (command === 'fraxure') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Fraxure_(Pok%C3%A9mon)')
+	}
+	if (command === 'frillish') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Frillish_(Pok%C3%A9mon)')
+	}
+	if (command === 'froakie') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Froakie_(Pok%C3%A9mon)')
+	}
+	if (command === 'frogadier') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Frogadier_(Pok%C3%A9mon)')
+	}
+	if (command === 'froslass') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Froslass_(Pok%C3%A9mon)')
+	}
+	if (command === 'furfrou') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Furfrou_(Pok%C3%A9mon)')
+	}
+	if (command === 'furret') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Furret_(Pok%C3%A9mon)')
+	}
+	if (command === 'gabite') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gabite_(Pok%C3%A9mon)')
+	}
+	if (command === 'gallade') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gallade_(Pok%C3%A9mon)')
+	}
+	if (command === 'galvantula') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Galvantula_(Pok%C3%A9mon)')
+	}
+	if (command === 'garbodor') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Garbodor_(Pok%C3%A9mon)')
+	}
+	if (command === 'garchomp') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Garchomp_(Pok%C3%A9mon)')
+	
     });
 	
 client.login(process.argv[2])
