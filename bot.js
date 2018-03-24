@@ -801,6 +801,93 @@ client.on('message', async message => {
 	if (command === 'garchomp') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Garchomp_(Pok%C3%A9mon)')
 	}
+	if (command === 'gardevoir') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gardevoir_(Pok%C3%A9mon)')
+	}
+	if (command === 'gastly') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gastly_(Pok%C3%A9mon)')
+	}
+	if (command === 'gastrodon') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gastrodon_(Pok%C3%A9mon)')
+	}
+	if (command === 'genesect') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Genesect_(Pok%C3%A9mon)')
+	}
+	if (command === 'gengar') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pok%C3%A9mon)')
+	}
+	if (command === 'geodude') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Geodude_(Pok%C3%A9mon)')
+	}
+	if (command === 'gible') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gible_(Pok%C3%A9mon)')
+	}
+	if (command === 'gigalith') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gigalith_(Pok%C3%A9mon)')
+	}
+	if (command === 'girafarig') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Girafarig_(Pok%C3%A9mon)')
+	}
+	if (command === 'giratina') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Giratina_(Pok%C3%A9mon)')
+	}
+	if (command === 'glaceon') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Glaceon_(Pok%C3%A9mon)')
+	}
+	if (command === 'glalie') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Glalie_(Pok%C3%A9mon)')
+	}
+	if (command === 'glameow') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Glameow_(Pok%C3%A9mon)')
+	}
+	if (command === 'gligar') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gligar_(Pok%C3%A9mon)')
+	}
+	if (command === 'gliscor') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gliscor_(Pok%C3%A9mon)')
+	}
+	if (command === 'gloom') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gloom_(Pok%C3%A9mon)')
+	}
+	if (command === 'gogoat') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gogoat_(Pok%C3%A9mon)'
+	}
+        if (command === 'golbat') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Golbat_(Pok%C3%A9mon)')
+	}
+	if (command === 'goldeen') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Goldeen_(Pok%C3%A9mon)')
+	}
+        if (command === 'golduck') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Golduck_(Pok%C3%A9mon)')
+	}
+	if (command === 'golem') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Golem_(Pok%C3%A9mon)')
+	}
+        if (command === 'golett') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Golett_(Pok%C3%A9mon)')
+	}
+        if (command === 'golisopod') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Golisopod_(Pok%C3%A9mon)')
+	}
+        if (command === 'golurk') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Golurk_(Pok%C3%A9mon)')
+	}
+        if (command === 'goodra') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Goodra_(Pok%C3%A9mon)')
+	}
+	if (command === 'goomy') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Goomy_(Pok%C3%A9mon)')
+	}
+	if (command === 'gorebyss') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Gorebyss_(Pok%C3%A9mon)')
+	}
+	if (command === 'gothita') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Gothita_(Pok%C3%A9mon)')
+	}
+        if (command === 'gothitelle') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Gothitelle_(Pok%C3%A9mon)')
+	}
     });
 	
 client.login(process.argv[2])
