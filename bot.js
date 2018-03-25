@@ -160,7 +160,7 @@ client.on('message', async message => {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Articuno_(Pok%C3%A9mon)')
      }
      if (command === 'audino') {
-	     message.reply('https://bulbapedia.bulbagarden.net/wiki/Audino_(Pok%C3%A9mon)')
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Audino_(Pok%C3%A9mon)')
      }
      if (command === 'aurorus') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Aurorus_(Pok%C3%A9mon)')
