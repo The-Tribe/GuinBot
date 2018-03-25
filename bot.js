@@ -850,7 +850,7 @@ client.on('message', async message => {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gloom_(Pok%C3%A9mon)')
 	}
 	if (command === 'gogoat') {
-	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gogoat_(Pok%C3%A9mon)'
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gogoat_(Pok%C3%A9mon)')
 	}
         if (command === 'golbat') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Golbat_(Pok%C3%A9mon)')
