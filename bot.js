@@ -25,7 +25,7 @@ client.on('message', async message => {
     const command = args.shift().toLowerCase();
 	
 	 if(command === "ping") {
-    const m = await message.channel.send("Eating melons... :melon:");
+    const m = await message.channel.send("Oh, we're playing ping pong? :ping_pong:");
     m.edit(`Pong! :ping_pong: Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms.`);
     }
     if(command === "say") {
@@ -77,6 +77,13 @@ client.on('message', async message => {
     }
     if (command === 'lambsaucelocated') {
 	message.reply('https://media1.tenor.com/images/7eb7dac41e24ca4896d469e67c63c287/tenor.gif?itemid=9924576')
+    }
+    if (message.content === '!guin cook for me') {
+	message.reply('I made you some power pasta. https://cdn.discordapp.com/attachments/422271970797813760/427687038347771915/PowerPasta.png')
+    }
+    if(command === "eat") {
+    const m = await message.channel.send("Eating shaved ice, melons, and chicken... :shaved_ice: :melon: :poultry_leg:");
+    m.edit(`I think I ate too much. :pregnant_woman:`);
     }
     if (command === 'abomasnow') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Abomasnow_(Pok%C3%A9mon)')
@@ -1806,6 +1813,8 @@ client.on('message', async message => {
 	if (command === 'rufflet') {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Rufflet_(Pok%C3%A9mon)')
 	}
+        if (command === 'sableye') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sableye_(Pok%C3%A9mon)')
     });
 	
 client.login(process.argv[2])
