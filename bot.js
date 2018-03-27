@@ -10,6 +10,7 @@ client.on('ready', () => {
     client.user.setGame('!guin')
 });
 
+// Woof goes the dog.
 client.on("guildCreate", guild => {
     console.log(`I joined a new server: ${guild.name} (id: ${guild.id}). This server has ${guild.memberCount} members!`);
     client.user.setGame('!guin | ${client.guilds.size} servers')
