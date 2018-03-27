@@ -83,7 +83,7 @@ client.on('message', async message => {
     }
     if(command === "eat") {
     const m = await message.channel.send("Eating shaved ice, melons, and chicken... :shaved_ice: :melon: :poultry_leg:");
-    m.edit(`I think I ate too much. :pregnant_woman:`);
+    m.edit(`:shaved_ice: :melon: :poultry_leg: --> :lips:`);
     }
     if (command === 'abomasnow') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Abomasnow_(Pok%C3%A9mon)')
@@ -1815,6 +1815,10 @@ client.on('message', async message => {
 	}
         if (command === 'sableye') {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Sableye_(Pok%C3%A9mon)')
+	}
+	if (command === 'salamence') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Salamence_(Pok%C3%A9mon)')
+	}
     });
 	
 client.login(process.argv[2])
