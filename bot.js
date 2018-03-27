@@ -244,6 +244,9 @@ client.on('message', async message => {
 	if (command === 'bidoof') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Bidoof_(Pok%C3%A9mon)')
 	}
+	if (message.content === '!guin big pete') {
+        message.reply('https://www.tripadvisor.ca/ShowTopic-g147374-i541-k4750207-Does_anyone_know_what_happened_to_the_Golden_Lemon-St_Kitts_St_Kitts_and_Nevis.html')
+	}
 	if (command === 'binacle') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Binacle_(Pok%C3%A9mon)')
 	}
@@ -1818,6 +1821,336 @@ client.on('message', async message => {
 	}
 	if (command === 'salamence') {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Salamence_(Pok%C3%A9mon)')
+	}
+        if (command === 'salandit') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Salandit_(Pok%C3%A9mon)')
+	}
+	 if (command === 'salazzle') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Salazzle_(Pok%C3%A9mon)')
+	}
+	 if (command === 'samurott') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Samurott_(Pok%C3%A9mon)')
+	}
+	 if (command === 'sandile') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sandile_(Pok%C3%A9mon)')
+	}
+	 if (command === 'sandshrew') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sandshrew_(Pok%C3%A9mon)')
+        }
+	 if (command === 'sandslash') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sandslash_(Pok%C3%A9mon)')
+	}
+	 if (command === 'sandygast') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sandygast_(Pok%C3%A9mon)')
+	 }
+	 if (command === 'sawk') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sawk_(Pok%C3%A9mon)')
+	 }
+	 if (command === 'sawsbuck') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sawsbuck_(Pok%C3%A9mon)')
+	 }
+	 if (command === 'scatterbug') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Scatterbug_(Pok%C3%A9mon)')
+	 }
+	 if (command === 'sceptile') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sceptile_(Pok%C3%A9mon)')
+	 }
+	 if (command === 'scizor') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Scizor_(Pok%C3%A9mon)')
+	 }
+	 if (command === 'scolipede') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Scolipede_(Pok%C3%A9mon)')
+	 }
+	 if (command === 'scrafty') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Scrafty_(Pok%C3%A9mon)')
+	 }
+	 if (command === 'scraggy') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Scraggy_(Pok%C3%A9mon)')
+	 }
+        if (command === 'scyther') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Scyther_(Pok%C3%A9mon)')
+	}
+	if (command === 'seadra') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Seadra_(Pok%C3%A9mon)')
+	}
+	if (command === 'seaking') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Seaking/_(Pok%C3%A9mon)')
+	}
+	if (command === 'sealeo') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sealeo_(Pok%C3%A9mon)')
+	}
+	if (command === 'seedot') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Seedot_(Pok%C3%A9mon)')
+	}
+	if (command === 'seel') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Seel_(Pok%C3%A9mon)')
+	}
+	if (command === 'seismitoad') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Seismitoad_(Pok%C3%A9mon)')
+	}
+	if (command === 'sentret') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sentret(Pok%C3%A9mon)')
+	}
+	if (command === 'serperior') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Serperior_(Pok%C3%A9mon)')
+	}
+	if (command === 'servine') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Servine_(Pok%C3%A9mon)')
+	}
+	if (command === 'seviper') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Seviper_(Pok%C3%A9mon)')
+	}
+	if (command === 'sewaddle') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sewaddle_(Pok%C3%A9mon)')
+	}
+	if (command === 'sharpedo') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sharpedo_(Pok%C3%A9mon)')
+	}
+	if (command === 'shaymin') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Shaymin_(Pok%C3%A9mon)')
+	}
+	if (command === 'shedinja') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Shedinja_(Pok%C3%A9mon)')
+	}
+	if (command === 'shelgon') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Shelgon_(Pok%C3%A9mon)')
+	}
+	if (command === 'shellder') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Shellder_(Pok%C3%A9mon)')
+	}
+	if (command === 'shellos') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Shellos_(Pok%C3%A9mon)')
+	}
+	if (command === 'shelmet') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Shelmet_(Pok%C3%A9mon)')
+	}
+	if (command === 'shieldon') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Shieldon_(Pok%C3%A9mon)')
+	}
+	if (command === 'shiftry') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Shiftry_(Pok%C3%A9mon)')
+	}
+	if (command === 'shiinotic') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Shiinotic_(Pok%C3%A9mon)')
+	}
+	if (command === 'shinx') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Shinx_(Pok%C3%A9mon)')
+	}
+	if (command === 'shroomish') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Shroomish_(Pok%C3%A9mon)')
+	}
+	if (command === 'shuckle') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Shuckle_(Pok%C3%A9mon)')
+	}
+	if (command === 'shuppet') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Shuppet_(Pok%C3%A9mon)')
+	}
+	if (command === 'sigilyph') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sigilyph_(Pok%C3%A9mon)')
+	}
+	if (command === 'silcoon') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Silcoon_(Pok%C3%A9mon)')
+	}
+	if (command === 'silvally') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Silvally_(Pok%C3%A9mon)')
+	}
+	if (command === 'simipour') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Simipour_(Pok%C3%A9mon)')
+	}
+	if (command === 'simisage') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Simisage_(Pok%C3%A9mon)')
+	}
+	if (command === 'simisear') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Simisear_(Pok%C3%A9mon)')
+	}
+	if (command === 'skarmory') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Skarmory_(Pok%C3%A9mon)')
+	}
+	if (command === 'skiddo') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Skiddo_(Pok%C3%A9mon)')
+	}
+	if (command === 'skiploom') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Skiploom_(Pok%C3%A9mon)')
+	}
+	if (command === 'skitty') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Skitty_(Pok%C3%A9mon)')
+	}
+	if (command === 'skorupi') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Skorupi_(Pok%C3%A9mon)')
+	}
+	if (command === 'skrelp') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Skrelp_(Pok%C3%A9mon)')
+	}
+	if (command === 'skuntank') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Skuntank_(Pok%C3%A9mon)')
+	}
+	if (command === 'slaking') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Slaking_(Pok%C3%A9mon)')
+	}
+	if (command === 'slakoth') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Slakoth_(Pok%C3%A9mon)')
+	}
+	if (command === 'sliggoo') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sliggoo_(Pok%C3%A9mon)')
+	}
+	if (command === 'slowbro') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Slowbro_(Pok%C3%A9mon)')
+	}
+	if (command === 'slowking') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Slowking_(Pok%C3%A9mon)')
+	}
+	if (command === 'slowpoke') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)')
+	}
+	if (command === 'slugma') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Slugma_(Pok%C3%A9mon)')
+	}
+	if (command === 'slurpuff') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Slurpuff_(Pok%C3%A9mon)')
+	}
+	if (command === 'smeargle') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Smeargle_(Pok%C3%A9mon)')
+	}
+	if (command === 'smoochum') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Smoochum_(Pok%C3%A9mon)')
+	}
+	if (command === 'sneasel') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sneasel_(Pok%C3%A9mon)')
+	}
+	if (command === 'snivy') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Snivy_(Pok%C3%A9mon)')
+	}
+	if (command === 'snorlax') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Snorlax_(Pok%C3%A9mon)')
+	}
+	if (command === 'snorunt') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Snorunt_(Pok%C3%A9mon)')
+	}
+	if (command === 'snover') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Snover_(Pok%C3%A9mon)')
+	}
+	if (command === 'snubbull') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Snubbull_(Pok%C3%A9mon)')
+	}
+	if (command === 'solgaleo') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Solgaleo_(Pok%C3%A9mon)')
+	}
+	if (command === 'solosis') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Solosis_(Pok%C3%A9mon)')
+	}
+	if (command === 'solrock') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Solrock_(Pok%C3%A9mon)')
+	}
+	if (command === 'spearow') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Spearow_(Pok%C3%A9mon)')
+	}
+	if (command === 'spewpa') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Spewpa_(Pok%C3%A9mon)')
+	}
+	if (command === 'spheal') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Spheal_(Pok%C3%A9mon)')
+	}
+	if (command === 'spinarak') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Spinarak_(Pok%C3%A9mon)')
+	}
+	if (command === 'spinda') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Spinda_(Pok%C3%A9mon)')
+	}
+	if (command === 'spiritomb') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Spiritomb_(Pok%C3%A9mon)')
+	}
+	if (command === 'spoink') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Spoink_(Pok%C3%A9mon)')
+	}
+	if (command === 'spritzee') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Spritzee_(Pok%C3%A9mon)')
+	}
+	if (command === 'squirtle') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Squirtle_(Pok%C3%A9mon)')
+	}
+	if (command === 'stakataka') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Stakataka_(Pok%C3%A9mon)')
+	}
+	if (command === 'stantler') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Stantler_(Pok%C3%A9mon)')
+	}
+	if (command === 'staraptor') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Staraptor_(Pok%C3%A9mon)')
+	}
+	if (command === 'staravia') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Staravia_(Pok%C3%A9mon)')
+	}
+	if (command === 'starly') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Starly_(Pok%C3%A9mon)')
+	}
+	if (command === 'starmie') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Starmie_(Pok%C3%A9mon)')
+	}
+	if (command === 'staryu') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Staryu_(Pok%C3%A9mon)')
+	}
+	if (command === 'steelix') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Steelix_(Pok%C3%A9mon)')
+	}
+	if (command === 'steenee') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Steenee_(Pok%C3%A9mon)')
+	}
+	if (command === 'stoutland') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Stoutland_(Pok%C3%A9mon)')
+	}
+	if (command === 'stufful') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Stufful_(Pok%C3%A9mon)')
+	}
+	if (command === 'stunfisk') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Stunfisk_(Pok%C3%A9mon)')
+	}
+	if (command === 'stunky') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Stunky_(Pok%C3%A9mon)')
+	}
+	if (command === 'sudowoodo') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sudowoodo_(Pok%C3%A9mon)')
+	}
+	if (command === 'suicune') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Suicune_(Pok%C3%A9mon)')
+	}
+	if (command === 'sunflora') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sunflora_(Pok%C3%A9mon)')
+	}
+	if (command === 'sunkern') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sunkern_(Pok%C3%A9mon)')
+	}
+	if (command === 'surskit') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Surskit_(Pok%C3%A9mon)')
+	}
+	if (command === 'swablu') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Swablu_(Pok%C3%A9mon)')
+	}
+	if (command === 'swadloon') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Swadloon_(Pok%C3%A9mon)')
+	}
+	if (command === 'swalot') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Swalot_(Pok%C3%A9mon)')
+	}
+	if (command === 'swampert') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Swampert_(Pok%C3%A9mon)')
+	}
+	if (command === 'swanna') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Swanna_(Pok%C3%A9mon)')
+	}
+	if (command === 'swellow') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Swellow_(Pok%C3%A9mon)')
+	}
+	if (command === 'swinub') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Swinub_(Pok%C3%A9mon)')
+	}
+	if (command === 'swirlix') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Swirlix_(Pok%C3%A9mon)')
+	}
+	if (command === 'swoobat') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Swoobat_(Pok%C3%A9mon)')
+	}
+	if (command === 'sylveon') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Sylveon_(Pok%C3%A9mon)')
 	}
     });
 	
