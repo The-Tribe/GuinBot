@@ -2153,6 +2153,54 @@ client.on('message', async message => {
 	if (command === 'sylveon') {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Sylveon_(Pok%C3%A9mon)')
 	}
+	if (command === 'taillow') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Taillow_(Pok%C3%A9mon)')
+	}
+	if (command === 'talonflame') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Talonflame_(Pok%C3%A9mon)')
+	}
+	if (command === 'tangela') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Tangela_(Pok%C3%A9mon)')
+	}
+	if (command === 'tangrowth') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Tangrowth_(Pok%C3%A9mon)')
+	}
+	if (message.content === '!guin tapu bulu') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Tapu_Bulu_(Pok%C3%A9mon)')
+	}
+	if (message.content === '!guin tapu fini') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Tapu_Fini_(Pok%C3%A9mon)')
+	}
+	if (message.content === '!guin tapu koko') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Tapu_Koko_(Pok%C3%A9mon)')
+	}
+	if (message.content === '!guin tapu lele') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Tapu_Lele_(Pok%C3%A9mon)')
+	}
+	if (command === 'tauros') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Tauros_(Pok%C3%A9mon)')
+	}
+	if (command === 'teddiursa') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Teddiursa_(Pok%C3%A9mon)')
+	}
+ 	if (command === 'tentacool') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Tentacool_(Pok%C3%A9mon)')
+	}
+	if (command === 'tentacruel') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Tentacruel_(Pok%C3%A9mon)')
+	}
+	if (command === 'tepig') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Tepig_(Pok%C3%A9mon)')
+	}
+	if (command === 'terrakion') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Terrakion_(Pok%C3%A9mon)')
+	}
+	if (command === 'throh') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Throh_(Pok%C3%A9mon)')
+	}
+	if (command === 'thundurus') {
+        message.reply('https://bulbapedia.bulbagarden.net/wiki/Thundurus_(Pok%C3%A9mon)')
+	}
     });
 	
 client.login(process.argv[2])
