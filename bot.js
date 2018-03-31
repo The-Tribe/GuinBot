@@ -2348,8 +2348,8 @@ client.on('message', async message => {
 	if (command === 'venusaur') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Venusaur_(Pok%C3%A9mon)')
 	}
-	if (command === 'vespiqueen') {
-	message.reply('https://bulbapedia.bulbagarden.net/wiki/Vespiqueen_(Pok%C3%A9mon)')
+	if (command === 'vespiquen') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Vespiquen_(Pok%C3%A9mon)')
 	}
 	if (command === 'vibrava') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Vibrava_(Pok%C3%A9mon)')
