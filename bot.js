@@ -86,6 +86,9 @@ client.on('message', async message => {
     const m = await message.channel.send("Eating shaved ice, melons, and chicken... :shaved_ice: :melon: :poultry_leg:");
     m.edit(`:shaved_ice: :melon: :poultry_leg: --> :lips:`);
     }
+    if (message === '!guin you there') {
+	message.reply('Yup.')
+    }
     if (command === 'abomasnow') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Abomasnow_(Pok%C3%A9mon)')
     }
@@ -2200,6 +2203,120 @@ client.on('message', async message => {
 	}
 	if (command === 'thundurus') {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Thundurus_(Pok%C3%A9mon)')
+	}
+	if (command === 'timburr') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Timburr_(Pok%C3%A9mon)')
+	}
+	if (command === 'tirtouga') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Tirtouga_(Pok%C3%A9mon)')
+	}
+	if (command === 'togedemaru') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Togedemaru_(Pok%C3%A9mon)')
+	}
+	if (command === 'togekiss') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Togekiss_(Pok%C3%A9mon)')
+	}
+	if (command === 'togepi') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Togepi_(Pok%C3%A9mon)')
+	}
+	if (command === 'togetic') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Togetic_(Pok%C3%A9mon)')
+	}
+	if (command === 'torchic') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Torchic_(Pok%C3%A9mon)')
+	}
+	if (command === 'torkoal') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Torkoal_(Pok%C3%A9mon)')
+	}
+	if (command === 'tornadus') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Tornadus_(Pok%C3%A9mon)')
+	}
+	if (command === 'torracat') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Torracat_(Pok%C3%A9mon)')
+	}
+	if (command === 'torterra') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Torterra_(Pok%C3%A9mon)')
+	}
+	if (command === 'totodile') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Totodile_(Pok%C3%A9mon)')
+	}
+	if (command === 'toucannon') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Toucannon_(Pok%C3%A9mon)')
+	}
+	if (command === 'toxapex') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Toxapex_(Pok%C3%A9mon)')
+	}
+	if (command === 'toxicroak') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Toxicroak_(Pok%C3%A9mon)')
+	}
+	if (command === 'tranquill') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Tranquill_(Pok%C3%A9mon)')
+	}
+	if (command === 'trapinch') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Trapinch_(Pok%C3%A9mon)')
+	}
+	if (command === 'treecko') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Treecko_(Pok%C3%A9mon)')
+	}
+	if (command === 'trevenant') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Trevenant_(Pok%C3%A9mon)')
+	}
+	if (command === 'tropius') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Tropius_(Pok%C3%A9mon)')
+	}
+	if (command === 'trubbish') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Trubbish_(Pok%C3%A9mon)')
+	}
+	if (command === 'trumbeak') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Trumbeak_(Pok%C3%A9mon)')
+	}
+	if (command === 'tsareena') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Tsareena_(Pok%C3%A9mon)')
+	}
+	if (command === 'turtonator') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Turtonator_(Pok%C3%A9mon)')
+	}
+	if (command === 'turtwig') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Turtwig_(Pok%C3%A9mon)')
+	}
+	if (command === 'tympole') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Tympole_(Pok%C3%A9mon)')
+	}
+	if (command === 'tynamo') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Tynamo_(Pok%C3%A9mon)')
+	}
+	if (message.content === '!guin type: null') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Type:_Null_(Pok%C3%A9mon)')
+	}
+	if (command === 'typhlosion') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Typhlosion_(Pok%C3%A9mon)')
+	}
+	if (command === 'tyranitar') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Tyranitar_(Pok%C3%A9mon)')
+	}
+	if (command === 'tyrantrum') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Tyrantrum_(Pok%C3%A9mon)')
+	}
+	if (command === 'tyrogue') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Tyrogue_(Pok%C3%A9mon)')
+	}
+	if (command === 'tyrunt') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Tyrunt_(Pok%C3%A9mon)')
+	}
+	if (command === 'umbreon') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Umbreon_(Pok%C3%A9mon)')
+	}
+	if (command === 'unfezant') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Unfezant_(Pok%C3%A9mon)')
+	}
+	if (command === 'unown') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Unown_(Pok%C3%A9mon)')
+	}
+	if (command === 'ursaring') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Ursaring_(Pok%C3%A9mon)')
+	}
+	if (command === 'uxie') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/Uxie_(Pok%C3%A9mon)')
 	}
     });
 	
