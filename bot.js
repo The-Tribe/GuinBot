@@ -1442,6 +1442,9 @@ client.on('message', async message => {
 	if (command === 'mismagius') {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Mismagius_(Pok%C3%A9mon)')
 	}
+	if (command === 'missingno') {
+	message.reply('https://bulbapedia.bulbagarden.net/wiki/MissingNo.')
+	}
 	if (command === 'moltres') {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Moltres_(Pok%C3%A9mon)')
 	}
@@ -2518,6 +2521,9 @@ client.on('message', async message => {
 	}
 	if (command === 'zygarde') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)')
+	}
+	if (message.content === 'what gender are you') {
+	message.reply('I identify as an attack helicopter')
 	}
     });
 	
