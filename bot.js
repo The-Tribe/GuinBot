@@ -13,12 +13,10 @@ client.on('ready', () => {
 // Woof goes the dog.
 client.on("guildCreate", guild => {
     console.log(`I joined a new server: ${guild.name} (id: ${guild.id}). This server has ${guild.memberCount} members!`);
-    client.user.setGame('!guin | ${client.guilds.size} servers')
 });
 
 client.on("guildDelete", guild => {
   console.log(`I have been removed from: ${guild.name} (id: ${guild.id})`);
-  client.user.setGame('!guin | ${client.guilds.size} servers');
 });
 
 client.on('message', async message => {
