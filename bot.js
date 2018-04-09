@@ -2520,9 +2520,15 @@ client.on('message', async message => {
 	if (command === 'zygarde') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)')
 	}
-	if (message.content === 'what gender are you') {
+	if (message.content === '!guin what gender are you') {
 	message.reply('I identify as an attack helicopter')
 	}
+	if (message.content === '!guin who let the dogs out') {
+        message.reply('I wish I could tell you, but that song never really did reveal who. WHO, WHO, WHO WHO!')
+	}
+	if (message.content === '!guin may the force be with you') {
+	message.reply('I certainly feel some force, in my lower abdomen, oh wait, that is definitely a hernia.')
+	}	
     });
 	
 client.login(process.argv[2])
