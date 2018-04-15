@@ -450,6 +450,9 @@ client.on('message', async message => {
 	if (command === 'cofagrigus') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Cofagrigus_(Pok%C3%A9mon)')
 	}
+	if (message.content === '!guin colossal pete') {
+	message.reply('https://cdn.discordapp.com/attachments/428210913334525953/434846861917159426/image.jpg')
+	}
 	if (command === 'combee') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Combee_(Pok%C3%A9mon)')
 	}
@@ -842,6 +845,9 @@ client.on('message', async message => {
 	}
 	if (command === 'gigalith') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Gigalith_(Pok%C3%A9mon)')
+	}
+	if (message.content === '!guin gigantic pete') {
+	message.reply('https://cdn.discordapp.com/attachments/428210913334525953/434847207984988160/image.jpg')
 	}
 	if (command === 'girafarig') {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Girafarig_(Pok%C3%A9mon)')
@@ -2521,13 +2527,13 @@ client.on('message', async message => {
 	message.reply('https://bulbapedia.bulbagarden.net/wiki/Zygarde_(Pok%C3%A9mon)')
 	}
 	if (message.content === '!guin what gender are you') {
-	message.reply('I identify as an attack helicopter')
+	message.reply('I identify as an attack helicopter. :helicopter:')
 	}
 	if (message.content === '!guin who let the dogs out') {
-        message.reply('I wish I could tell you, but that song never really did reveal who. WHO, WHO, WHO WHO!')
+        message.reply('I wish I could tell you, but that song never really did reveal who. :musical_note: WHO, WHO, WHO WHO! :musical_note:')
 	}
 	if (message.content === '!guin may the force be with you') {
-	message.reply('I certainly feel some force, in my lower abdomen, oh wait, that is definitely a hernia.')
+	message.reply('I certainly feel some force, in my lower abdomen, oh wait, that is definitely a hernia. :persevere:')
 	}	
     });
 	
