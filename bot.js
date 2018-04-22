@@ -1041,6 +1041,8 @@ client.on('message', async message => {
 	if (command === 'houndour') {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Houndour_(Pok%C3%A9mon)')
 	}
+	if (message.content === '!guin huge pete') {
+	message.reply(https://cdn.discordapp.com/attachments/409793362099437569/437659136390463489/Screenshot_20180417-2015142.png
 	if (command === 'huntail') {
         message.reply('https://bulbapedia.bulbagarden.net/wiki/Huntail_(Pok%C3%A9mon)')
 	}
