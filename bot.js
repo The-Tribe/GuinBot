@@ -2538,6 +2538,9 @@ client.on('message', async message => {
 	if (message.content === '!guin may the force be with you') {
 	message.reply('I certainly feel some force, in my lower abdomen, oh wait, that is definitely a hernia. :persevere:')
 	}	
+	if (message.content === '!guin peter piper picked a peck of pickled peppers') {
+	message.reply('Wow, he sure must be gifted! :cucumber:') 
+	}
     });
 	
 client.login(process.argv[2])
