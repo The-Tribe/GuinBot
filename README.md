@@ -1,2 +1,2 @@
-# Botden-Jam
-Hi! This is Guinoala's Disciord bot. GuinBot.
+# GuinBot
+Hi! This is Guinoala's Discord bot. GuinBot.
