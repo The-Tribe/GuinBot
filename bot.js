@@ -7,7 +7,7 @@ const config = require("./config.json");
 client.on('ready', () => {
     client.user.setUsername('GuinBot');
     console.log('Wuss poppin!');
-    client.user.setGame('!guin')
+    client.user.setGame('!guin gigantic pete')
 });
 
 // Woof goes the dog.
