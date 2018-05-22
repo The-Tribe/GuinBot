@@ -71,7 +71,7 @@ client.on('message', async message => {
 	message.reply('I am fairly young, but cool young :cool:, not baby young. :baby:')
     }
     if (command === 'invite') {
-	message.reply('https://discordapp.com/api/oauth2/authorize?client_id=420077961371189249&permissions=8&scope=bot')
+	message.reply('https://discordapp.com/api/oauth2/authorize?client_id=420077961371189249&permissions=70327296&scope=bot')
     }
     if (command === 'doctorstrange') {
 	message.reply('https://media.giphy.com/media/xT5LMEHCIJgOHZcDsc/giphy.gif')
