@@ -13,7 +13,7 @@ client.on('ready', () => {
 // Woof goes the dog.
 client.on("guildCreate", guild => {
     console.log(`I joined a new server: ${guild.name} (id: ${guild.id}). This server has ${guild.memberCount} members!`);
-    client.user.setGame('!guin ping')
+    client.user.setGame('!guin gigantic pete')
 });
 
 client.on("guildDelete", guild => {
