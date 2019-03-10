@@ -53,7 +53,7 @@ client.on('message', async message => {
         message.reply('I live in an abandoned Burger King. :house_abandoned: :hamburger:')
     }
     if (message.content === '!guin who are you') {
-        message.reply('I am GuinBot. Coded by Guinoala, hosted by Enigma! If possible, please join the House of Guin, https://discord.gg/yA5SzTH.')
+        message.reply('I am GuinBot. Coded by Guinoala, hosted by Enigma!')
     }
     if (message.content === '!guin how rich are you') {
         message.reply('I do not own any currency. :money_with_wings:')
