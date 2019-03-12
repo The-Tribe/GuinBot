@@ -7,7 +7,7 @@ const config = require("./config.json");
 client.on('ready', () => {
     client.user.setUsername('GuinBot');
     console.log('Wuss poppin!');
-    client.user.setGame('!guin gigantic pete')
+    client.user.setGame('!guin ping')
 });
 
 // Woof goes the dog.
@@ -38,10 +38,28 @@ client.on('message', async message => {
 	message.reply('Well, hello there! :wave:')
     }
     if (command === 'hello') {
-        message.reply('Hola! :wave:')
+        message.reply('Hello! :wave:')
     }
     if (command === 'hey') {
         message.reply('https://media1.tenor.com/images/d7dfda8869299f7c2065e72d68eb5ad6/tenor.gif?itemid=5743585')
+    }
+    if (command === "hola") {
+	message.reply("Hi.") 
+    }
+    if (message.content === "bonjour") {
+	message.reply("Hey there!") 
+    }
+    if (message.content === "guten tag") {
+	message.reply("Greetings.") 
+    }
+    if (message.content === "what's up") {
+	message.reply("Nothing much.") 
+    }
+    if (message.content === "what is up") {
+	message.reply("The sky. :cloud:") 
+    }
+    if (message.content === "whats up") {
+	message.reply("The sky. :cloud:") 
     }
     if (command === 'bye') {
         message.reply('Farewell.')
@@ -56,7 +74,7 @@ client.on('message', async message => {
         message.reply('I am GuinBot. Coded by Guinoala, hosted by Enigma!')
     }
     if (message.content === '!guin how rich are you') {
-        message.reply('I do not own any currency. :money_with_wings:')
+        message.reply('I do not own any money. :money_with_wings:')
     }
     if (message.content === '!guin who am I') {
         message.reply('You are one of my valued users. :hearts:')
@@ -65,16 +83,13 @@ client.on('message', async message => {
         message.reply('Back to life! Back to reality! :musical_note:')
     }
     if (command === 'die') {
-	message.reply('I am physically incapable of death. :skull: I am a celestial, meaning that the power cosmic :rocket: keeps me alive for an infinite amount of time. :alarm_clock:')
+	message.reply('*dies* :skull:')
     }
     if (message.content === '!guin how old are you') {
 	message.reply('I am fairly young, but cool young :cool:, not baby young. :baby:')
     }
     if (command === 'invite') {
 	message.reply('https://discordapp.com/api/oauth2/authorize?client_id=420077961371189249&permissions=70327296&scope=bot')
-    }
-    if (command === 'doctorstrange') {
-	message.reply('https://media.giphy.com/media/xT5LMEHCIJgOHZcDsc/giphy.gif')
     }
     if (command === 'lambsaucelocated') {
 	message.reply('https://media1.tenor.com/images/7eb7dac41e24ca4896d469e67c63c287/tenor.gif?itemid=9924576')
@@ -117,8 +132,20 @@ client.on('message', async message => {
 	message.reply('I certainly feel some force, in my lower abdomen, oh wait, that is definitely a hernia. :persevere:')
 	}	
 	if (message.content === '!guin peter piper picked a peck of pickled peppers') {
-	message.reply('Wow, he sure must be gifted! :cucumber:') 
+	message.reply('Wow!') 
 	}
+	if (message.content === "!guin will you marry me") {
+	message.reply("I would never marry a nasty human!") 
+	}
+        if (message.content === "!guin sleep") {
+	message.reply("Zzzzzzzzzzzzz... :sleeping_accommodation: :sleeping: :last_quarter_moon_with_face:") 
+        }
+        if (message.content === "!guin wake up") {
+	message.reply("I was never asleep in the first place, just pretending to be.") 
+        }
+        if (message.content === "!guin where are you") {
+	message.reply("I am everywhere.") 
+        }
     });
 	
 client.login(process.argv[2])
